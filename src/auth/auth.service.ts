@@ -6,6 +6,8 @@ import * as bcrypt from 'bcryptjs';
 import { User, UserDocument } from '../users/schemas/user.schema';
 import { RegisterDto } from './dto/register.dto';
 
+
+
 @Injectable()
 export class AuthService {
   constructor(
